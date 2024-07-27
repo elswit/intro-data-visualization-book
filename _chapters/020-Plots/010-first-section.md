@@ -14,6 +14,12 @@ The following provides a quick reference to the most commonly used Markdown synt
 ##### H5
 ###### H6
 
+```r
+norm <- function(x) {
+  sqrt(x%*%x)
+}
+norm(1:4)
+```
 
 *Italic* and **Bold**
 ~~Scratched Text~~
@@ -49,12 +55,7 @@ $$\int_a^b y \: \mathrm{d}x$$
 
 code blocks:
 
-~~~r
-norm <- function(x) {
-  sqrt(x%*%x)
-}
-norm(1:4)
-~~~
+
 
 Adding a quote or output of a program:
 > x=5.0
@@ -63,7 +64,8 @@ Adding a quote or output of a program:
 ~~~python
 for x in range(5):
     print(x)
-    assert x>0
+    if x>0:
+        break
 ~~~
 
 term
