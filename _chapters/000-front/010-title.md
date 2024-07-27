@@ -1,10 +1,10 @@
 ---
 slug: book
 title: Demo Book
-abstract: An example book for showcasing the Jekyll Chapterbook theme.
+abstract: A draft for an introductory data visualization book set in Jekyll Chapterbook theme.
 ---
 
-By Jason Grimes
+By Authors
 
 Copyright &copy; {{"now" | date: "%Y"}} by {{site.author}} and other Authors.
 
