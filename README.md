@@ -1,32 +1,12 @@
 ---
 layout: home
-title: Jekyll Chapterbook Theme
+title: Draft book using Jekyll Chapterbook Theme
 permalink: /
 ---
 
-This is a [Jekyll](https://jekyllrb.com/) theme based on [GitBook](https://www.gitbook.com/) that adds support for easily organizing pages into book chapters and parts.
-It doesn't rely on any plugins,
-so it works natively with [GitHub Pages](https://pages.github.com/).
 
-This theme was originally based on Tao He’s clever and immensely helpful [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) theme, 
-which in turn is based on an early theme of [GitBook](https://www.gitbook.com/).
+The live github page for this repository can be viewd [Here](sarshar.dev/intro-data-viz-book)
 
-## Demos
-
-### Demo on GitHub pages
-
-[jasongrimes.github.io/jekyll-chapterbook/](https://jasongrimes.github.io/jekyll-chapterbook/)
-
-Also see its 
-[GitHub repo](https://github.com/jasongrimes/jekyll-chapterbook).
-
-### Example live site
-
-A live site with a more complex configuration can be seen at 
-[book.fretboardfoundation.com](https://book.fretboardfoundation.com).
-
-Also see its 
-[GitHub repo](https://github.com/jasongrimes/fretboardfoundation).
 
 ## Why this theme
 
@@ -47,19 +27,23 @@ It was created with the following objectives:
   regardless of the chapter name, without having to manually renumber.
   (This makes it easier to find the page you want to edit.)
 
+## Theme's GitHub page
+
+[jasongrimes.github.io/jekyll-chapterbook/](https://jasongrimes.github.io/jekyll-chapterbook/)
+
+Also see its 
+[GitHub repo](https://github.com/jasongrimes/jekyll-chapterbook).
+
+### Example live site
+
+A live site with a more complex configuration can be seen at 
+[book.fretboardfoundation.com](https://book.fretboardfoundation.com).
+
+Also see its 
+[GitHub repo](https://github.com/jasongrimes/fretboardfoundation).
+
 ## Getting started
 
-### Install the theme
-
-Install this theme [like any other Jekyll theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll).
-For example, you could:
-- [Fork this repository](https://github.com/jasongrimes/jekyll-chapterbook/fork) and add your markdown pages to the `_chapters` folder.
-- Use it as a remote theme in your `_config.yml`,
-and then copy in the configuration from  [`jekyll-chapterbook/_config.yml`](https://github.com/jasongrimes/jekyll-chapterbook/blob/master/_config.yml).
-
-```yaml
-remote_theme: jasongrimes/jekyll-chapterbook
-```
 
 ### Create some chapters
 
@@ -506,15 +490,5 @@ The fonts can be customized by modifying the `.book.font-family-0` and `.book.fo
 ```
 
 
-## License
-
-Copyright &copy; 2023 Jason Grimes.
-
-This work is open source,
-made available under the [Apache License, Version 2.0](https://github.com/jasongrimes/jekyll-chapterbook/blob/master/LICENSE).
-
-Originally based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook), 
-which was Copyright 2019 Tao He,
-and licensed under the [Apache License, Version 2.0](https://github.com/sighingnow/jekyll-gitbook/blob/f286e81abb57c91b7056d043d846cd308c8ea292/LICENSE).
 
 
