@@ -6,7 +6,7 @@ abstract: An example book for showcasing the Jekyll Chapterbook theme.
 
 By Jason Grimes
 
-Copyright &copy; {{"now" | date: "%Y"}} by {{site.author}}.
+Copyright &copy; {{"now" | date: "%Y"}} by {{site.author}} and other Authors.
 
 Last updated: {{ "now" | date: "%B %e, %Y" }}
 
