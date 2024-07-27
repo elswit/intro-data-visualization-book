@@ -56,9 +56,7 @@ norm <- function(x) {
 norm(1:4)
 ~~~
 
-Adding a quote or output of a program:
-> x=5.0
-
+Normal text
 
 ~~~python
 for x in range(5):
