@@ -57,7 +57,9 @@ norm(1:4)
 ```
 
 ```python
-l = [x for i,x in enumerate(j)]
+for x in range(5):
+    print(x)
+    assert x>0
 ```
 
 This file is located at: {{ page.path }}
