@@ -56,13 +56,25 @@ norm <- function(x) {
 norm(1:4)
 ~~~
 
-Normal text
+Adding a quote or output of a program:
+> x=5.0
+
 
 ~~~python
 for x in range(5):
     print(x)
     assert x>0
 ~~~
+
+term
+: definition
+: another definition
+
+
+This is a text with a
+footnote[^1].
+
+[^1]: And here is the definition.
 
 ---
 ```
