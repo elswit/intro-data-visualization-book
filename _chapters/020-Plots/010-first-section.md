@@ -55,6 +55,7 @@ norm <- function(x) {
 }
 norm(1:4)
 ```
+
 dfsfsfsdfs
 
 
@@ -64,7 +65,8 @@ for x in range(5):
     assert x>0
 ```
 
-This file is located at: {{ page.path }}
-
 ---
-
+```
+This file is located at: {{ page.path }}
+```
+---
