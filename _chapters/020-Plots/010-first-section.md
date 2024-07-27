@@ -49,21 +49,21 @@ $$\int_a^b y \: \mathrm{d}x$$
 
 code blocks:
 
-```r
+~~~r
 norm <- function(x) {
   sqrt(x%*%x)
 }
 norm(1:4)
-```
+~~~
 
 dfsfsfsdfs
 
 
-```python
+~~~python
 for x in range(5):
     print(x)
     assert x>0
-```
+~~~
 
 ---
 ```
