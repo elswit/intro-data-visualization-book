@@ -1,34 +1,10 @@
 ---
-title: Example draft chapter
-slug: draft
+title: Bar Graph
+slug: bar-graph
 abstract: An example of a "draft" chapter, hidden from the ToC but visible in the outline.
 ---
 
-A chapter can be marked as a "draft" by renaming the file and adding `.draft` to the numeric prefix, like this:
-
-    010.draft-introduction.md
-
-Draft chapters are not listed in the table of contents,
-and they are not included in the chapter numberings.
-(To see in your dev environment how all the drafts _would_ be numbered if they weren't drafts,
-set `show_drafts_in_dev: true` in [_config.yml](https://github.com/jasongrimes/jekyll-chapterbook/blob/master/_config.yml).)
-
-But drafts _are_ listed in the book [outline](/outline.html).
-This enables a workflow in which you start with an outline of your book,
-made with empty draft chapters having just a `title` and maybe an `abstract`,
-ordered and grouped into parts as needed (and frequently reorganized).
-
-Then you can flesh out the chapters over time,
-and when ready,
-remove the `.draft` from the file name so it appears in the book.  
-
-bar graph, segmented  and stacked, pie charts 2D and 3D
-Scatterplot, boxplot, histogram
-Time series plot
-Choropleth map
-Decision tree
-Survival curve
-Word cloud
+Testing 1, 2 3
 
 ---
 ```
